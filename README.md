@@ -28,8 +28,10 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 |./CIndex –f fastqpath –z er | Input the read line number, it extracts the read associated with the given read line number.
 |./CIndex -f fastqpath -z efq | Input P, it extracts the collection of records that contain P.
 
+## Paper
+[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: a compressed index for fast retrieval of FASTQ files, submitted. 
+
 ## Reference
-[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: a compressed index for fast retrieval of FASTQ files, submitted.   
 [2] M. Burrows and D.J. Wheeler, A block-sorting lossless data compression algorithm, Tech. Report SRC-RR-124, Digital Equipment Corporation, Palo Alto, CA, 1994.   
 [3] R. Grossi, A. Gupta, and J. S. Vitter, “High-order entropy-compressed text indexes,” In Proceedings of the 14th annual ACM-SIAM symposium on Discrete Algorithms, 2003, pp. 841–850.    
 
