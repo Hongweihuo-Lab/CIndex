@@ -25,7 +25,7 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 | --- | --- |
 |./CIndex –f fastqpath –z cr | Input P, it returns the number of occurrences of pattern P in reads strings R. 
 |./ CIndex –f fastqpath –z lr | Input P, it reports all the read line numbers that contain an occurrence of P.
-|./CIndex –f fastqpath –z er | Input read line number, it extracts the read associated with the given read line number.
+|./CIndex –f fastqpath –z er | Input the read line number, it extracts the read associated with the given read line number.
 |./CIndex -f fastqpath -z efq | Input P, it extracts the collection of records that contain P.
 
 ## Reference
