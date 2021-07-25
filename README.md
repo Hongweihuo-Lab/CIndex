@@ -15,15 +15,7 @@ The command to create the compressed index for the FASTQ file is:
 | Command | Description |
 | --- | --- |
 |./CIndex -f fastqpath -z build |  -f fastqpath is the path of the FASTQ file to be compressed. 
-  |  |   -z build means to build the compressed file.   
-
-The compressed file will be generated in the folder in which the FASTQ file is after running.   
-The command to create the compressed indexing is: 
-
-| Command | Description |
-| --- | --- |
-|./CIndex -f fastqpath -z bindex |  -f fastqpath is the path of the FASTQ file to be compressed. 
-  |  |   -z bindex means to build the index.  
+  |  |   -z build means to build the compressed index.   
 
 The index file will be generated under the folder corresponding to the FASTQ file after the operation is completed.
 ### Queries
