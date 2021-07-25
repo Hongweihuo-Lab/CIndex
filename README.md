@@ -1,4 +1,4 @@
-# CIndex: a compressed index for fast retrieval of FASTQ files
+# CIndex: Compressed indexes for fast retrieval of FASTQ files 
 CIndex[1] is a compressed index for FASTQ files. It uses the Burrows-Wheeler transform[2] and the wavelet tree[3], combined with hybrid encoding and succinct data structures, to achieve minimal space usage while enabling fast retrieval on the compressed FASTQ files.    
 CIndex uses compiler c++ 11, g++ 5.4 and above, with sse4.2.
 ## Compiling 
@@ -29,7 +29,7 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 |./CIndex -f fastqpath -z efq | Input P, it extracts the collection of records that contain P.
 
 ## Paper
-[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: a compressed index for fast retrieval of FASTQ files, submitted. 
+[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: Compressed indexes for fast retrieval of FASTQ files, submitted. 
 
 ## Reference
 [2] M. Burrows and D.J. Wheeler, A block-sorting lossless data compression algorithm, Tech. Report SRC-RR-124, Digital Equipment Corporation, Palo Alto, CA, 1994.   
