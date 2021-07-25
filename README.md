@@ -10,7 +10,7 @@ By entering different commands after –z, you can enter different operating mod
 The operation modes include: build, bindex, cr, lr, er, efq, which correspond to the construction of compressed indexes, reads counting, reads positioning, reads extraction, and fastq extraction, respectively.
 ### Index Construction
 Create the compressed index of the FASTQ file.   
-The command to create a FASTQ compressed file is:  
+The command to create the compressed index for the FASTQ file is:   
 
 | Command | Description |
 | --- | --- |
