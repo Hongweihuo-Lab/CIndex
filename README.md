@@ -7,7 +7,7 @@ CIndex uses compiler c++ 11, g++ 5.4 and above, with sse4.2.
     $ make
 ## Usage
 By entering different commands after –z, you can enter different operating modes.  
-The operation modes include: build, bindex, cr, lr, er, efq, which correspond to the construction of compressed indexes, reads counting, reads positioning, reads extraction, and fastq extraction, respectively.
+The operation modes include: build, cr, lr, er, efq, which correspond to the construction of compressed indexes, reads counting, reads positioning, reads extraction, and fastq extraction, respectively.
 ### Index Construction
 Create the compressed index of the FASTQ file.   
 The command to create the compressed index for the FASTQ file is:   
