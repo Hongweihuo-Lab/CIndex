@@ -23,10 +23,10 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 
 | Command | Description |
 | --- | --- |
-|./CIndex –f fastqpath –z cr | Input P, it returns the number of occurrences of pattern P in reads strings R. 
-|./CIndex –f fastqpath –z lr | Input P, it reports all the read line numbers that contain an occurrence of P.
-|./CIndex –f fastqpath –z er | Input the read line number, it extracts the read associated with the given read line number.
-|./CIndex -f fastqpath -z efq | Input P, it extracts the collection of records that contain P.
+| ./CIndex –f fastqpath –z cr   | Input P, it returns the number of occurrences of pattern P in reads strings R. 
+| ./CIndex –f fastqpath –z lr   | Input P, it reports all the read line numbers that contain an occurrence of P.
+| ./CIndex –f fastqpath –z er   | Input the read line number, it extracts the read associated with the given read line number.
+| ./CIndex -f fastqpath -z efq  | Input P, it extracts the collection of records that contain P.
 
 ## Paper
 [1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: Compressed indexes for fast retrieval of FASTQ files, submitted. 
