@@ -1,5 +1,6 @@
 # CIndex: Compressed indexes for fast retrieval of FASTQ files 
-CIndex[1] is a compressed index for FASTQ files. It uses the Burrows-Wheeler transform[2] and the wavelet tree[3], combined with hybrid encoding and succinct data structures, to achieve minimal space usage while enabling fast retrieval on the compressed FASTQ files.     
+CIndex[1] is a compressed index for FASTQ files. It uses the Burrows-Wheeler transform[2] and the wavelet tree[3], combined with hybrid encoding and succinct data structures, to achieve minimal space usage while enabling fast retrieval on the compressed FASTQ files. CIndex has been adapted to be a general-purpose text index, 
+[CIndexGeneral](https://github.com/Hongweihuo-Lab/CIndexGeneral).    
 CIndex uses compiler c++ 11, gcc 5.4 or higher, with sse4.2, and Ubuntu16.04.1 LTS 64.
 ## Compiling 
     $ git clone https://github.com/Hongweihuo-Lab/CIndex.git
@@ -34,4 +35,6 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 ## References
 [2] M. Burrows and D.J. Wheeler, A block-sorting lossless data compression algorithm, Tech. Report SRC-RR-124, Digital Equipment Corporation, Palo Alto, CA, 1994.   
 [3] R. Grossi, A. Gupta, and J. S. Vitter, High-order entropy-compressed text indexes, In Proceedings of the 14th annual ACM-SIAM symposium on Discrete Algorithms, 2003, pp. 841–850.    
-
+[4] R. Grossi, J. S. Vitter, and B. Xu, “Wavelet trees: From theory to practice,” In Proceedings of the 1st International Conference on Data Compression, Communications and Processing, 2011, pp. 210–221.
+[5] L. Foschini, R. Grossi, A. Gupta, and J. S. Vitter, “Fast compression with a static model in high-order entropy,” In Proceedings of the IEEE Data Compression Conference, 2004, pp. 62–71.
+[6]  H. Huo, L. Chen, H. Zhao, J. S. Vitter, and Y. Nekrich, “A data-aware FM-index,” In Proceedings of the 17th Annual Workshop on Algorithm Engineering and Experiments, 2015, pp. 10–23.
