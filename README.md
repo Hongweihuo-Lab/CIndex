@@ -29,7 +29,7 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 | ./CIndex -f fastqpath -z efq  | Input P, it extracts the collection of records that contain P.
 
 ## Paper
-[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: Compressed indexes for fast retrieval of FASTQ files, Bioinformatics, September 15, 2021.  https://doi.org/10.1093/bioinformatics/btab655 
+[1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: Compressed indexes for fast retrieval of FASTQ files, Bioinformatics, September 15, 2021,  [PDF](https://doi.org/10.1093/bioinformatics/btab655). 
 
 ## References
 [2] M. Burrows and D.J. Wheeler, A block-sorting lossless data compression algorithm, Tech. Report SRC-RR-124, Digital Equipment Corporation, Palo Alto, CA, 1994.   
