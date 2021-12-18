@@ -31,7 +31,7 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 ## Paper
 [1] H. Huo, P. Liu, C. Wang, H. Jiang, and J. S. Vitter, CIndex: Compressed indexes for fast retrieval of FASTQ files, Bioinformatics, September 15, 2021.  https://doi.org/10.1093/bioinformatics/btab655 
 
-## Reference
+## References
 [2] M. Burrows and D.J. Wheeler, A block-sorting lossless data compression algorithm, Tech. Report SRC-RR-124, Digital Equipment Corporation, Palo Alto, CA, 1994.   
 [3] R. Grossi, A. Gupta, and J. S. Vitter, High-order entropy-compressed text indexes, In Proceedings of the 14th annual ACM-SIAM symposium on Discrete Algorithms, 2003, pp. 841–850.    
 
