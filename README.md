@@ -1,7 +1,6 @@
 # CIndex: Compressed indexes for fast retrieval of FASTQ files 
 CIndex[1] is a compressed index for FASTQ files. It uses the Burrows-Wheeler transform[2] and the wavelet tree[3], combined with hybrid encoding and succinct data structures, to achieve minimal space usage while enabling fast retrieval on the compressed FASTQ files.  
-CIndex has been adapted to be a general-purpose text index, [CIndexGeneral](https://github.com/Hongweihuo-Lab/CIndexGeneral).    
-It uses compiler c++ 11, gcc 5.4 or higher, with sse4.2, and Ubuntu16.04.1 LTS 64.
+CIndex has been adapted to be a general-purpose text index, [CIndexGeneral](https://github.com/Hongweihuo-Lab/CIndexGeneral). It uses compiler c++ 11, gcc 5.4 or higher, with sse4.2, and Ubuntu16.04.1 LTS 64.
 ## Compiling 
     $ git clone https://github.com/Hongweihuo-Lab/CIndex.git
     $ cd Cindex
