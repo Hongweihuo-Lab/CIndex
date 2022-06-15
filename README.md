@@ -38,5 +38,5 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 [5] L. Foschini, R. Grossi, A. Gupta, and J. S. Vitter, “Fast compression with a static model in high-order entropy,” In Proceedings of the IEEE Data Compression Conference, 2004, pp. 62–71.   
 [6]  H. Huo, L. Chen, H. Zhao, J. S. Vitter, and Y. Nekrich, “A data-aware FM-index,” In Proceedings of the 17th Annual Workshop on Algorithm Engineering and Experiments, 2015, pp. 10–23.
 
-##ChangeLog  
+## ChangeLog 
 2022.6.15: fix a bug in BitMap.h.
