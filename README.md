@@ -37,3 +37,6 @@ CIndex supports four queries: CountR (cr), LocateR (lr), ExtractR (er), extractF
 [4] R. Grossi, J. S. Vitter, and B. Xu, “Wavelet trees: From theory to practice,” In Proceedings of the 1st International Conference on Data Compression, Communications and Processing, 2011, pp. 210–221.  
 [5] L. Foschini, R. Grossi, A. Gupta, and J. S. Vitter, “Fast compression with a static model in high-order entropy,” In Proceedings of the IEEE Data Compression Conference, 2004, pp. 62–71.   
 [6]  H. Huo, L. Chen, H. Zhao, J. S. Vitter, and Y. Nekrich, “A data-aware FM-index,” In Proceedings of the 17th Annual Workshop on Algorithm Engineering and Experiments, 2015, pp. 10–23.
+
+##ChangeLog  
+2022.6.15: fix a bug in BitMap.h.
